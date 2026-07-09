@@ -17,8 +17,8 @@ import java.sql.SQLException;
 public class DBConnection {
 
     private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=OnlineFood;encrypt=true;trustServerCertificate=true";
-    private static final String USERNAME = "amani";  
-    private static final String PASSWORD = "Amani0509788506";  
+    private static final String USERNAME = "*******";  
+    private static final String PASSWORD = "*********";  
 
     public static Connection getConnection() {
         Connection connection = null;
